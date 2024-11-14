@@ -25,3 +25,17 @@
     - 可以通过修改代码中的 `my_model` 和 `my_deck` 来定制 Anki 卡片的模板和牌组信息。
 
 请注意，代码中的 `ocr = PaddleOCR(use_angle_cls=True)` 需要提前安装 PaddleOCR 库，并且可能需要下载模型文件。此外，代码中的图片处理部分可能需要根据实际情况进行调整。
+
+# 其他
+
+## 代码由 cursor 和 MarsCodeAI 共同生成。安装环境到简单功能生成，大约 2 小时左右。特别是 README 生成，几乎秒成。
+
+
+## 安装过程中MacOS @M1 silicon 遇到CPU卡死情况的解决办法：
+ 1. https://github.com/PaddlePaddle/PaddleOCR/issues/9761
+ 2. https://github.com/PaddlePaddle/PaddleOCR/discussions/13060?converting=1#discussioncomment-9762733
+ 3. https://github.com/PaddlePaddle/PaddleOCR/issues/9761
+
+## 参考链接
+ 1. [paddlepaddle 官网](https://paddlepaddle.github.io/PaddleOCR/latest/quick_start.html#_2)
+ 2. [Web 实例](https://aistudio.baidu.com/community/app/91660/webUI)
